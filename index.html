@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islam</title>
+    <link rel="icon" href="ab67616d0000b2734718e2b124f79258be7bc452.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="profile">
+            <div class="message">
+                <button id="message-button"> <i class="fa fa-envelope"></i> </button>
+            </div>
+            <img src="6f16d22a-08fe-4de7-b3f9-ecc232933143.jpeg" alt="Profile Picture" class="profile-picture">
+            <h1 class="name">Islam</h1>
+            <p class="smallparag">Data analysis/Application dev</p>
+            <div class="contact-info">
+                <div class="in">
+                    <ion-icon name="mail-outline" class="ic"></ion-icon>
+                    <span class="tx">lwrdsasky@gmail.com</span>
+                </div>
+                <div class="in">
+                    <ion-icon name="call-outline" class="ic"></ion-icon>
+                    <span class="tx">+213795889151</span>
+                </div>
+                <div class="in">
+                    <ion-icon name="calendar-outline" class="ic"></ion-icon>
+                    <span class="tx">08-19-2006</span>
+                </div>
+                <div class="in">
+                    <ion-icon name="location-outline" class="ic"></ion-icon>
+                    <span class="tx">Algeria, Jijel</span>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/Hu14s" class="fa fa-facebook fa-4x icon-3d"></a>
+                <a href="https://x.com/rico_official18" class="fa fa-twitter fa-4x icon-3d"></a>
+                <a href="https://www.instagram.com/rico_official18" class="fa fa-instagram fa-4x icon-3d"></a>
+                <a href="https://github.com/ricoonetrtrt" class="fa fa-github fa-4x icon-3d"></a>
+            </div>
+        </div>
+        <div class="music-player">
+            <img src="#" alt="Music Cover" class="music-cover">
+            <div class="music-info">
+                <p class="music-title"></p>
+                <p class="music-artist"></p>
+            </div>
+            <button id="play-pause"><i class="fas fa-play"></i></button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="sendingMsgTitle">Send a message to me</h2>
+            <form id="messageForm">
+                <label for="name">Name :</label>
+                <br>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Type your name here (optional)">
+                <br>
+                <br>
+                <label for="message">Message :</label>
+                <br>
+                <br>
+                <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+
+                <button id="send-button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="notification" class="notification"></div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
